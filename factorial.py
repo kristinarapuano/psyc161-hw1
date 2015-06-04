@@ -9,7 +9,7 @@ from nose.tools import assert_equal
 def factorial_recursive(n):
     n = int(n)
     if n == 1:
-	    output = 1
+        output = 1
         return output
     else:
         output = n * factorial_recursive(n - 1)
