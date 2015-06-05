@@ -21,7 +21,7 @@ def test_factorial():
     assert_equal(factorial_recursive(1), 1)
     assert_equal(factorial_recursive(2), 2)
     assert_equal(factorial_recursive(3), 6)
-    
+
 
 if __name__ == '__main__':
     # This is a way to determine either file was "executed", so if it was
